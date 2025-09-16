@@ -27,6 +27,9 @@ app.use('/api/products', productRoutes);
 app.use('/api/categories', categoryRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/search', searchRoutes);
+app.get("/", (req, res) => {
+  res.send("Welcome to Ecommerce server!");
+});
 
 // Database connection
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/ecommerce')
