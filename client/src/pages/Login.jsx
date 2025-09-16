@@ -133,7 +133,7 @@ const Login = () => {
 
           <div className="text-center">
             <p className="text-sm text-gray-600">
-              Demo credentials? Try: admin@example.com / password123
+              Demo credentials? Try: dineshinmecheng@gmail.com / 123456
             </p>
           </div>
         </form>
